@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/*titulo h1 de la pagina*/
+
+header{
+    background: rgb(231, 116, 135);
+    width: 100%;
+    
+}
+
+header div{
+    display: inline-block;
+    width: 100%;
+}
+span{
+    color: red;
+}
+.titulo{
+    width: 40%;
+    color: blue ;
+    text-align: center;
+    border-radius: 30px;
+    background-color: white;
+    margin: 10px;
+ }
+
+
+
+/* barra de navegacion*/
+
+.nav{
+    width: 40%;
+    text-align: right;
+    margin: 15px;
+    float: right;
+    padding: 5px;
+}
+
+/*esto hace parte del main*/
+
+main{
+    background: pink;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.contenedorImagenes{
+    text-align: center;
+}
+.img{
+    width: 20%;
+    display: inline-block;
+    margin: 4%;
+    height: 100px;
+
+}
+main img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+}
+
+
+/*icono de whataspp*/
+footer img{
+    width: 100%;
+    height: 100%;
+    float: right;
+}
+.iconWhast{
+    width: 8%;
+    height: 8%;
+    float: right;
+    margin: 5px;
+}
+
+
+/* pie de pagina */
+footer{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: rgb(231, 116, 135);
+}
+
+footer div{
+    width: 100%;
+    display: inline-block;
+}
+#nombre{
+    width: 80%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
